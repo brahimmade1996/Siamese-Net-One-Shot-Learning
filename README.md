@@ -2,6 +2,8 @@
 
 This repository hosts the network training codes for the Siamese Neural Net using the ASL Dataset. The aim of this project is to check the affect of **dataset volumes** and **network depth** on Siamese Neural Net's performance.
 
+### This repository is a part of my **IITB Summer Of Code** project [Gestures For 3D Space](https://github.com/sudoRicheek/Gestures-For-3D-Space).
+
 ### [Check out the Software-Requirements-Specification Document](https://github.com/sudoRicheek/Siamese-Net-One-Shot-Learning/blob/master/SRS%20One%20Shot%20Learning.pdf).
 
 ### [Check out the network training codes](https://github.com/sudoRicheek/Siamese-Net-One-Shot-Learning/blob/master/Siamese%20Neural%20Network%20for%20Gesture%20Classification.ipynb).
@@ -113,7 +115,7 @@ These are single channeled 28 x 28 images and here's what they look like :
     <img src="/AccuracyCurves/30_test.png" width="386" /> 
   </p>
   
-We see that the **affect** of data is not very pronounced between the ```one-half, one-quarter and one-eighth dataset sizes.```. But as soon as we drop the dataset size to ```30 IMAGES PER_CLASS``` it begins to affect the model adversely and produces unreliable results. So there must be a certain **dataset volume threshold** after which the model performance begins to get affected in a more noticeable way. It needs more exploration and more results to check if we can actually predict the **threshold** and improve our understanding of **Deep Siamese Networks**. :nerd_face: 
+We see that the **affect** of data is not very pronounced between the ```one-half, one-quarter and one-eighth dataset sizes.``` But as soon as we drop the dataset size to ```30 IMAGES PER_CLASS``` it begins to affect the model adversely and produces unreliable results. So there must be a certain **dataset volume threshold** after which the model performance begins to get affected in a more noticeable way. It needs more exploration and more results to check if we can actually predict the **threshold** and improve our understanding of **Deep Siamese Networks**. :nerd_face: 
   
 ## References
 
